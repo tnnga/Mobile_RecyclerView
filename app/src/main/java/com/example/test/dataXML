@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+    <item>
+        <name>Item 1</name>
+        <description>This is item 1</description>
+    </item>
+    <item>
+        <name>Item 2</name>
+        <description>This is item 2</description>
+    </item>
+    <!-- Thêm các mục khác nếu cần -->
+</items>

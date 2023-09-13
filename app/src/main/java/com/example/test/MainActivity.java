@@ -31,16 +31,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         List<Cat> catList = new ArrayList<Cat>();
 
-        catList.add(new Cat("Cat 1", R.drawable.img));
-        catList.add(new Cat("Cat 2", R.drawable.img));
-        catList.add(new Cat("Cat 3", R.drawable.img));
-        catList.add(new Cat("Cat 4", R.drawable.img));
-        catList.add(new Cat("Cat 5", R.drawable.img));
-        catList.add(new Cat("Cat 6", R.drawable.img));
-        catList.add(new Cat("Cat 7", R.drawable.img));
-        catList.add(new Cat("Cat 8", R.drawable.img));
-        catList.add(new Cat("Cat 9", R.drawable.img));
-        catList.add(new Cat("Cat 10", R.drawable.img));
+        catList.add(new Cat("Con mèo số 1", R.drawable.img));
+        catList.add(new Cat("Con mèo số 2", R.drawable.img_1));
+        catList.add(new Cat("Con mèo số 3", R.drawable.img_2));
+        catList.add(new Cat("Con mèo số 4", R.drawable.img));
+        catList.add(new Cat("Con mèo số 5", R.drawable.img_1));
+        catList.add(new Cat("Con mèo số 6", R.drawable.img_2));
+        catList.add(new Cat("Con mèo số 7", R.drawable.img));
+        catList.add(new Cat("Con mèo số 8", R.drawable.img_1));
+        catList.add(new Cat("Con mèo số 9", R.drawable.img_2));
+        catList.add(new Cat("Con mèo số 10", R.drawable.img));
 
         recyclerView = findViewById(R.id.rvNews);
         MyAdapter adapter = new MyAdapter(catList);
